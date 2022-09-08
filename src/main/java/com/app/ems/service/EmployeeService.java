@@ -1,4 +1,11 @@
 package com.app.ems.service;
 
-public class EmployeeService {
+import com.app.ems.model.Employee;
+
+import java.util.List;
+
+public interface EmployeeService {
+
+    List<Employee> getAllEmployee();
+
 }
